@@ -1,0 +1,9 @@
+rm -rf zk1
+rm -rf zk2
+rm -rf zk3
+mkdir -p zk1/data
+mkdir -p zk1/datalog
+mkdir -p zk2/data
+mkdir -p zk2/datalog
+mkdir -p zk3/data
+mkdir -p zk3/datalog
