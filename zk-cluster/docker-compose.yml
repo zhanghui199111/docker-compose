@@ -6,7 +6,7 @@ networks:
 
 services:
   zk1:
-    image: zookeeper
+    image: zookeeper:3.8.0
     hostname: zk1
     container_name: zk1
     ports:
@@ -22,7 +22,7 @@ services:
       - zk-net
 
   zk2:
-    image: zookeeper
+    image: zookeeper:3.8.0
     hostname: zk2
     container_name: zk2
     ports:
@@ -38,7 +38,7 @@ services:
       - zk-net
 
   zk3:
-    image: zookeeper
+    image: zookeeper:3.8.0
     hostname: zk3
     container_name: zk3
     ports:
